@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         foreach ($updateFields as $key => $value) {
             if ($key == 0) {
+                $data[$key] = null;
                 continue;
             }
 
